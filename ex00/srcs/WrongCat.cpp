@@ -20,7 +20,7 @@ WrongCat &WrongCat::operator=(const WrongCat &cpy)
 
 WrongCat::~WrongCat()
 {
-    std::cout << "WrongCat default destructor called !" << std::endl;
+    std::cout << "WrongCat destructor called !" << std::endl;
 }
 
 void    WrongCat::makeSound(void) const
