@@ -18,5 +18,10 @@ int main()
     const WrongAnimal *b = new WrongAnimal();
     a->makeSound();
     b->makeSound();
+    delete meta;
+    delete j;
+    delete i;
+    delete a;
+    delete b;
     return 0;
 }

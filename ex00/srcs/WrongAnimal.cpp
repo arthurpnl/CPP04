@@ -21,7 +21,7 @@ WrongAnimal::WrongAnimal (const WrongAnimal &cpy)
 
 WrongAnimal::~WrongAnimal()
 {
-    std::cout << "Animal destructor called !" << std::endl;
+    std::cout << "WrongAnimal destructor called !" << std::endl;
 }
 
 std::string WrongAnimal::getType(void) const
