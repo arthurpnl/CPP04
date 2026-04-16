@@ -4,7 +4,7 @@ SRCS = srcs/Animal.cpp srcs/Brain.cpp srcs/Cat.cpp srcs/Dog.cpp srcs/WrongAnimal
 OBJS = $(SRCS:.cpp=.o)
 
 CPPFLAGS = -I includes
-CPP = g++
+CPP = c++
 CXXFLAGS = -std=c++98 -Wall -Wextra -Werror
 
 all: $(NAME)
@@ -22,3 +22,5 @@ fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
+
+.PHONY: all clean fclean re
